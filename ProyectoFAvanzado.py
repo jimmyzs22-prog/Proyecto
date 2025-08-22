@@ -54,7 +54,7 @@ class App(ttk.Window):
 
         btns = ttk.Frame(cont); btns.grid(row=5, columnspan=2, column=0, sticky=W, pady=4)
         ttk.Button(btns, text="Guardar / Actualizar",bootstyle=PRIMARY, command=self._guardar_actualizar).pack(side=LEFT, padx=4)
-        ttk.Button(btns, text="Limpiar",bootstyle=SECONDARY, command=self._limpiar).pack(side=LEFT, padx=4)
+        ttk.Button(btns, text="Limpiarr",bootstyle=SECONDARY, command=self._limpiar).pack(side=LEFT, padx=4)
         ttk.Button(btns, text="Eliminar",bootstyle=SECONDARY, command=self._eliminar).pack(side=LEFT, padx=4)
         
         for i in range(2):
